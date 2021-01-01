@@ -13,7 +13,7 @@ class MyDocument extends Document {
 			<Html>
 				<Head />
 				<body>
-					<ColorModeScript initialColorMode="dark" />
+					{/* <ColorModeScript initialColorMode="dark" /> */}
 					<Main />
 					<NextScript />
 				</body>
