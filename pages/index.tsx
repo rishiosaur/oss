@@ -25,7 +25,7 @@ export interface Profile {
 	profileUrl: string
 }
 
-const Home: NextPage = ({ profiles }: { profiles: Profile[] }) => (
+const Home = ({ profiles }: { profiles: Profile[] }) => (
 	<>
 		<Box
 			paddingTop={['5', '5', '5', '5rem']}
