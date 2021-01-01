@@ -1,14 +1,41 @@
-# 📚 Perfect-Next
+# 📚 Open Source Profiles!
 
-![lint status](https://github.com/rishiosaur/perfect-next/workflows/lint/badge.svg)
-![format status](https://github.com/rishiosaur/perfect-next/workflows/format/badge.svg)
-![format status](https://github.com/rishiosaur/perfect-next/workflows/build/badge.svg)
-![GitHub](https://img.shields.io/github/license/rishiosaur/perfect-next)
-![GitHub issues](https://img.shields.io/github/issues/rishiosaur/perfect-next)
-![GitHub contributors](https://img.shields.io/github/contributors/rishiosaur/perfect-next)
-![GitHub last commit](https://img.shields.io/github/last-commit/rishiosaur/perfect-next)
+![lint status](https://github.com/rishiosaur/oss/workflows/lint/badge.svg)
+![format status](https://github.com/rishiosaur/oss/workflows/format/badge.svg)
+![format status](https://github.com/rishiosaur/oss/workflows/build/badge.svg)
+![GitHub](https://img.shields.io/github/license/rishiosaur/oss)
+![GitHub issues](https://img.shields.io/github/issues/rishiosaur/oss)
+![GitHub contributors](https://img.shields.io/github/contributors/rishiosaur/oss)
+![GitHub last commit](https://img.shields.io/github/last-commit/rishiosaur/oss)
 
-A minimal starter kit for the best React framework there is.
+A minimal showcase of the developers that came to the Open Source workshop at Hack the North 2020!
+
+# Profiles
+
+To add yourself to the list, you'll need to modify `profiles.json` - the API reads data from that specific file as a rudimentary persistent data source.
+
+`profiles.json` merely contains an array of `Profile`s, which are defined to be:
+
+```typescript
+interface Profile {
+	name: string // Your name
+	github?: string
+	twitter?: string
+	insta?: string
+	description: string // Minimal description about you!
+	profileUrl: string // Image of yourself
+}
+```
+
+To add yourself to the website, you'll need to add another object to the array listed in `profiles.json`.
+
+To make sure your PR has the highest change of being reviewed, you must:
+
+1. Create an issue using the "New Profile" template and fill it out using your proposal.
+2. Edit `profiles.json` according to your own profile on your fork, and make a PR mentioning your corresponding issue.
+3. Fix any merge conflicts and/or build errors (your PR will be merged _automatically_ as soon as all checks pass).
+
+# Development
 
 ## Getting Started
 
