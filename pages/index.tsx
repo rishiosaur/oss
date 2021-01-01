@@ -7,23 +7,26 @@ import {
 	Grid,
 	Heading,
 	HStack,
+	IconButton,
 	Image,
 	Link,
 	Spacer,
 	Stack,
 	Text,
 } from '@chakra-ui/react'
-import { AtSignIcon } from '@chakra-ui/icons'
-import { GetServerSideProps, NextPage } from 'next'
-import Head from 'next/head'
-
+import { Github, Instagram, Twitter } from '@icons-pack/react-simple-icons'
+import { motion } from 'framer-motion'
 export interface Profile {
 	name: string
 	github?: string
 	twitter?: string
+	insta?: string
 	description: string
 	profileUrl: string
 }
+
+const MotionStack = motion.custom(Stack)
+const MotionGrid = motion.custom(Grid)
 
 const Home = ({ profiles }: { profiles: Profile[] }) => (
 	<>
@@ -37,12 +40,36 @@ const Home = ({ profiles }: { profiles: Profile[] }) => (
 					⚡️
 				</Text>
 			</Box>
-			<Grid
+			<MotionGrid
+				variants={{
+					hidden: { opacity: 0 },
+					show: {
+						opacity: 1,
+						transition: {
+							staggerChildren: 0.1,
+							// delayChildren: 1,
+						},
+					},
+				}}
+				initial="hidden"
+				animate="show"
 				templateColumns="repeat(auto-fit, 30rem)"
 				templateRows="repeat(auto-fit, 12rem)"
 				gap={3}>
 				{profiles.map((profile) => (
-					<Stack p="6" borderWidth="1px" borderRadius="lg">
+					<MotionStack
+						variants={{
+							hidden: { opacity: 0, rotateX: 50 },
+							show: {
+								opacity: 1,
+								rotateX: 0,
+							},
+						}}
+						p="6"
+						// initial="hidden"
+						// animate="show"
+						borderWidth="1px"
+						borderRadius="lg">
 						<HStack>
 							<Avatar size="2xl" name={profile.name} src={profile.profileUrl} />
 							<Spacer />
@@ -59,41 +86,42 @@ const Home = ({ profiles }: { profiles: Profile[] }) => (
 								<HStack>
 									{profile.github && (
 										<Link href={`https://github.com/${profile.github}`}>
-											<Box
-												borderRadius="md"
-												bgColor="white"
-												color="black"
-												p="2">
-												GitHub
-											</Box>
+											<IconButton
+												colorScheme="gray"
+												aria-label="Github button"
+												size="lg"
+												icon={<Github />}
+											/>
 										</Link>
 									)}
 
 									{profile.twitter && (
-										<Link
-											color="white"
-											_hover={{
-												textDecoration: 'none',
-											}}
-											href={`https://twitter.com/${profile.twitter}`}>
-											{/* <Box borderRadius="md" bgColor="blue" p="2">
-										Twitter
-									</Box> */}
-											<Box
-												borderRadius="md"
-												bgColor=" #0366d6"
-												color="white"
-												p="2">
-												@{profile.twitter}
-											</Box>
+										<Link href={`https://github.com/${profile.twitter}`}>
+											<IconButton
+												colorScheme="blue"
+												aria-label="Twitter button"
+												size="lg"
+												icon={<Twitter />}
+											/>
+										</Link>
+									)}
+
+									{profile.insta && (
+										<Link href={`https://instagram.com/${profile.insta}`}>
+											<IconButton
+												colorScheme="orange"
+												aria-label="Instagram button"
+												size="lg"
+												icon={<Instagram />}
+											/>
 										</Link>
 									)}
 								</HStack>
 							</Stack>
 						</HStack>
-					</Stack>
+					</MotionStack>
 				))}
-			</Grid>
+			</MotionGrid>
 		</Box>
 	</>
 )
