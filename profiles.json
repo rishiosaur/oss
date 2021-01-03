@@ -6,5 +6,13 @@
 		"description": "Hey there! I'm Rishi, and I like doing cool stuff.",
 		"profileUrl": "https://miro.medium.com/fit/c/262/262/2*wWhSbClkWugcXjPlCTyjwQ.jpeg",
 		"insta": "rishi.cx"
+	},
+        {
+		"name": "Sam Poder",
+		"github": "sampoder",
+		"twitter": "sam_poder",
+		"description": "Hi! I like making things and running crazy events.",
+		"profileUrl": "https://scrapbook.hackclub.com/sampoder.png",
+		"insta": "sam_poder"
 	}
 ]
