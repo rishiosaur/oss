@@ -128,7 +128,7 @@ const Home = ({ profiles }: { profiles: Profile[] }) => (
 
 export default Home
 
-export const getServerSideProps = () => {
+export const getStaticProps = () => {
 	const profiles = require('../profiles.json')
 
 	return {
