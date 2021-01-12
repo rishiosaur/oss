@@ -14,5 +14,13 @@
 		"description": "Hi! I like making things and running crazy events.",
 		"profileUrl": "https://scrapbook.hackclub.com/sampoder.png",
 		"insta": "sam_poder"
+	},
+	{
+		"name": "Katya Potapov",
+		"github": "katyapotapov",
+		"twitter": "katya_potapov",
+		"description": "Hi! I'm Katya and I love to do kickboxing and play piano :)",
+		"profileUrl": "https://katyapotapov.com/data/IMG_0673_small.jpg",
+		"insta": "katyapotapov"
 	}
 ]
