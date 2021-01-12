@@ -19,11 +19,11 @@ To add yourself to the list, you'll need to modify `profiles.json` - the API rea
 ```typescript
 interface Profile {
 	name: string // Your name
-	github?: string
-	twitter?: string
-	insta?: string
+	github?: string // Github username
+	twitter?: string // Twitter username
+	insta?: string // Instagram username
 	description: string // Minimal description about you!
-	profileUrl: string // Image of yourself
+	profileUrl: string // Image of yourself (you can host on imgur.com or some other hosting site)
 }
 ```
 
@@ -33,9 +33,9 @@ To make sure your PR has the highest change of being reviewed, you must:
 
 1. Create an issue using the "New Profile" template and fill it out using your proposal.
 2. Edit `profiles.json` according to your own profile on your fork, and make a PR mentioning your corresponding issue.
-3. Fix any merge conflicts and/or build errors (your PR will be merged _automatically_ as soon as all checks pass).
+3. Fix any merge conflicts, iteration procedures and/or build errors (your PR will be merged as soon as all checks pass & one of the moderators approves it).
 
-# Development
+# Development - If you're interested in going a bit deeper!
 
 ## Getting Started
 
