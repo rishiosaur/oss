@@ -14,5 +14,13 @@
 		"description": "Hi! I like making things and running crazy events.",
 		"profileUrl": "https://scrapbook.hackclub.com/sampoder.png",
 		"insta": "sam_poder"
+	},
+        {
+		"name": "Chelsea Liu",
+		"github": "zchelseal",
+		"twitter": "zchelseal",
+		"description": "Mathie who's sleeping way too much during quarantine :)",
+		"profileUrl": "https://github.com/zchelseal/me/blob/main/chelsea.jpeg",
+		"insta": "zchelseal"
 	}
 ]
