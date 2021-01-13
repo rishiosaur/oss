@@ -14,5 +14,13 @@
 		"description": "Hi! I like making things and running crazy events.",
 		"profileUrl": "https://scrapbook.hackclub.com/sampoder.png",
 		"insta": "sam_poder"
+	},
+	{
+		"name": "Viet Nguyen",
+		"github": "viet-quocnguyen",
+		"twitter": "Viet_NguyenQuoc",
+		"description": "Hey there! I love building software applications :)",
+		"profileUrl": "https://vietjs.tech/",
+		"insta": "_viet.nguyen"
 	}
 ]
