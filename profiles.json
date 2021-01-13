@@ -22,5 +22,12 @@
 		"description": "Hi! I'm a high school student and I'm interested in web development.",
 		"profileUrl": "https://scrapbook.hackclub.com/jasonaa.png",
 		"insta": "jasonaa_"
+  },{
+		"name": "Viet Nguyen",
+		"github": "viet-quocnguyen",
+		"twitter": "Viet_NguyenQuoc",
+		"description": "Hey there! I love building software applications :)",
+		"profileUrl": "https://vietjs.tech/",
+		"insta": "_viet.nguyen"
 	}
 ]
