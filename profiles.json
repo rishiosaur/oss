@@ -29,5 +29,13 @@
 		"description": "Hey there! I love building software applications :)",
 		"profileUrl": "https://vietjs.tech/",
 		"insta": "_viet.nguyen"
+	},
+	{
+		"name": "Eric Xiao",
+		"github": "mathlord2",
+		"twitter": "mathlord2",
+		"description": "Hello world! I'm a high school student super passionate about computer science and software development, along with mathematics, physics, and music!",
+		"profileUrl": "https://mathlord2.github.io/",
+		"insta": "erix_fricky"
 	}
 ]
