@@ -14,5 +14,13 @@
 		"description": "Hi! I like making things and running crazy events.",
 		"profileUrl": "https://scrapbook.hackclub.com/sampoder.png",
 		"insta": "sam_poder"
+	},
+	{
+		"name": "Jason Antwi-Appah",
+		"github": "jasonappah",
+		"twitter": "jasonaa_",
+		"description": "Hi! I'm a high school student and I'm interested in web development.",
+		"profileUrl": "https://scrapbook.hackclub.com/jasonaa.png",
+		"insta": "jasonaa_"
 	}
 ]
