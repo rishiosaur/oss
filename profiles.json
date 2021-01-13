@@ -15,6 +15,7 @@
 		"profileUrl": "https://scrapbook.hackclub.com/sampoder.png",
 		"insta": "sam_poder"
 	},
+
 	{
 		"name": "Jason Antwi-Appah",
 		"github": "jasonappah",
@@ -29,5 +30,12 @@
 		"description": "Hey there! I love building software applications :)",
 		"profileUrl": "https://vietjs.tech/",
 		"insta": "_viet.nguyen"
-	}
+	},
+
+	{	"name": "Brielle Chenier",
+		"github": "Brielle-Chenier",
+		"twitter": "none"
+		"profileUrl": "https://briellechenier.com/img/profilepic.jpg",
+		"insta": "brielle_chenier"
+}
 ]
