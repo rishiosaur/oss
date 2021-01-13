@@ -7,12 +7,20 @@
 		"profileUrl": "https://miro.medium.com/fit/c/262/262/2*wWhSbClkWugcXjPlCTyjwQ.jpeg",
 		"insta": "rishi.cx"
 	},
-        {
+	{
 		"name": "Sam Poder",
 		"github": "sampoder",
 		"twitter": "sam_poder",
 		"description": "Hi! I like making things and running crazy events.",
 		"profileUrl": "https://scrapbook.hackclub.com/sampoder.png",
 		"insta": "sam_poder"
+	},
+	{
+		"name": "Matt Gleich",
+		"github": "Matt-Gleich",
+		"twitter": "MattGleich",
+		"description": "Hello! I'm Matt a OSS dev from NH",
+		"profileUrl": "https://avatars0.githubusercontent.com/u/43759105?s=460&u=6416ad5fe6861ca8ae43751222a59c6ed4ce960e&v=4",
+		"insta": "N/A"
 	}
 ]
