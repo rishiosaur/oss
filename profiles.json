@@ -14,5 +14,13 @@
 		"description": "Hi! I like making things and running crazy events.",
 		"profileUrl": "https://scrapbook.hackclub.com/sampoder.png",
 		"insta": "sam_poder"
+	},
+	{
+		"name": "Michael Chang",
+		"github": "engichang1467",
+		"twitter": "mikeychanging",
+		"description": "Hey GitHub! Michael here. I like writing software that solves my problem",
+		"profileUrl": "https://engichang1467.github.io/personalWeb2/home.html",
+		"insta": "michael.changman"
 	}
 ]
