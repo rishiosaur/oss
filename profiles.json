@@ -14,5 +14,13 @@
 		"description": "Hi! I like making things and running crazy events.",
 		"profileUrl": "https://scrapbook.hackclub.com/sampoder.png",
 		"insta": "sam_poder"
+	},
+	{
+		"name": "Khushraj Rathod",
+		"github": "KhushrajRathod",
+		"twitter": "N/A",
+		"description": "Hi! I like Deno :)",
+		"profileUrl": "https://scrapbook.hackclub.com/Khushraj.png",
+		"insta": "N/A"
 	}
 ]
