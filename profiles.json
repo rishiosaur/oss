@@ -29,5 +29,13 @@
 		"description": "Hey there! I love building software applications :)",
 		"profileUrl": "https://vietjs.tech/",
 		"insta": "_viet.nguyen"
+	},
+        {
+		"name": "Rajan Agarwal",
+		"github": "itsrajan",
+		"twitter": "itsrajan05",
+		"description": "Hey! I'm a high school student driven by innovation",
+		"profileUrl": "https://scrapbook.hackclub.com/rajan.ag005.png",
+		"insta": "rajanwastaken"
 	}
 ]
