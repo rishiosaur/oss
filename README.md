@@ -8,7 +8,7 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/rishiosaur/oss)
 ![GitHub last commit](https://img.shields.io/github/last-commit/rishiosaur/oss)
 
-A minimal showcase of the developers that came to the Open Source workshop at Hack the North 2020!
+A minimal showcase of the developers that came to the Git & GitHub workshop at Hack the North 2021!
 
 # Profiles
 
@@ -50,6 +50,16 @@ yarn dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+
+## Cloning
+
+After forking the repository, run the following to get it onto your machine:
+
+```
+git clone https://github.com/<username>/oss.git
+cd oss
+git status
+```
 
 ## Learn More
 
